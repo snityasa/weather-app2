@@ -1,0 +1,58 @@
+.header {
+  background-color: #edaa24;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0% 0% 5px 0%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.header h1 {
+  text-align: center;
+  margin-left: 0.5rem;
+  font-family: "Lobster", cursive;
+}
+
+body {
+  margin: 0;
+  background-color: #edece8;
+}
+
+.input-form {
+  border-color: transparent;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  outline: none;
+}
+
+.weather-container {
+  background-color: #d6d0b4;
+  width: fit-content;
+  max-width: 400px;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  display: none;
+}
+
+.weather-container.active {
+  display: block;
+}
+
+.weather-detail {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.weather-detail.description {
+  vertical-align: middle;
+}
